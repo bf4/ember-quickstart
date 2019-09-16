@@ -1,11 +1,9 @@
 <h2>List of Scientists</h2>
 
-x
 <ul>
-  {{log @model}}
-  {{#each @model as |scientist|}}
-    <li>x{{scientist}}</li>
+  {{#each this.model as |scientist|}}
+    <li>{{scientist}}</li>
   {{/each}}
 </ul>
-x
+
 {{outlet}}
